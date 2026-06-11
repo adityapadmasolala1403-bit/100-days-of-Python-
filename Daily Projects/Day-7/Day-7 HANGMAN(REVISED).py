@@ -69,7 +69,7 @@ repeat = []
 life_count = 6
 won = False 
 while life_count >0:
-    guess = input("Enter your guess ").lower()
+    guess = input("Enter your guess:").lower()
     if guess in computer_choice:
         for i in range(length_word):
             if guess == computer_choice[i]:
